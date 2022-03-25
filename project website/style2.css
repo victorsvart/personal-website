@@ -1,0 +1,95 @@
+/* this is the style sheet for victor's abyss about me page  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2F3035;
+    background-size: cover;
+    background-image: url(videos/giphy.gif);
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    width: 1280px;
+    margin-left: -10px;
+}
+
+nav {
+    background-color: rgba(27, 27, 27, 0.438);
+    height: 40px;
+    width: 1024px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+a {
+    color: white;
+}
+
+main {
+    /*width: 1200px;  if i want to have the text 100% aligned, just delete width */
+    height: 737px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+}
+
+main p{
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* my photo's position */
+
+.photo {
+    margin-left: 1450px;
+    margin-top: -100px;
+}
+
+/* text outlines */
+.strokeme {
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+
+/* background video */
+.showcase {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
