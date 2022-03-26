@@ -10,7 +10,6 @@ html {
 body {
     background-color: #2F3035;
     background-size: cover;
-    background-image: url(videos/giphy.gif);
 }
 .container {
     margin-left: auto;
@@ -35,6 +34,7 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+    margin-left: 10px;
 }
 
 nav a {
@@ -45,6 +45,18 @@ nav a {
 
 a {
     color: white;
+}
+
+#myVideo {
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    filter: brightness(50%);
 }
 
 main {
